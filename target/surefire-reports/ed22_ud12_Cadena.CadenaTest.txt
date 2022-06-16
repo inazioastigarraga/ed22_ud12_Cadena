@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: ed22_ud12_Cadena.CadenaTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in ed22_ud12_Cadena.CadenaTest
+testContarLetraFail  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at ed22_ud12_Cadena.CadenaTest.testContarLetraFail(CadenaTest.java:71)
+
+testLongitud  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+	at ed22_ud12_Cadena.CadenaTest.testLongitud(CadenaTest.java:22)
+
+testLongitudFail  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at ed22_ud12_Cadena.CadenaTest.testLongitudFail(CadenaTest.java:28)
+
+testVocales  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
+	at ed22_ud12_Cadena.CadenaTest.testVocales(CadenaTest.java:36)
+
+testVocalesFail  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at ed22_ud12_Cadena.CadenaTest.testVocalesFail(CadenaTest.java:42)
+
+testInvertir  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <revuJ> but was: <oizanI>
+	at ed22_ud12_Cadena.CadenaTest.testInvertir(CadenaTest.java:50)
+
+testInvertirFail  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <revuJ> but was: <>
+	at ed22_ud12_Cadena.CadenaTest.testInvertirFail(CadenaTest.java:57)
+
